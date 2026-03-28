@@ -129,7 +129,7 @@ help       → 顯示指令說明
 **Vercel 代理路徑：** `https://dcproxy.chiuhuang.dev/ups-ping`
 - 需要 `x-vercel-protection-bypass` Header。
 - 發送包含以下內容的嵌入式訊息 (Embeds)：電壓、電池百分比、充電狀態、繼電器狀態。
- ![Example Discord NotifyPreview](image.png)
+ ![Example Discord NotifyPreview](Discord.png)
 
   [Github REPO](https://github.com/ChiuHuang/Discord-Webhook-Proxy/blob/main/api/index.py)
 > [!NOTE]
@@ -137,7 +137,7 @@ help       → 顯示指令說明
 ---
 
 ## Frontend：Flet
-![Flet Preview](image-1.png)
+![Flet Preview](Flet.png)
 - 即時電壓圖表
 - 電池百分比與充電狀態
 - 目前電源模式
