@@ -151,12 +151,10 @@ help       → 顯示指令說明
 
 所有涉及修改數據的端點皆需驗證：
 ```text
-secToken: "TangTangIsCute.53098756789"
+SEC_TOKEN="TangTangIsCute.6767"
 ```
 *just look at her*
 
 ---
 
-## (之後修......)
-> Flet Dashboard加時間選擇 (7h/24h/7d/30d)
 
