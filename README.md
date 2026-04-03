@@ -147,6 +147,11 @@ help       → 顯示指令說明
 
 > [!NOTE]
 > 建議前端不要編譯，用伺服器跑可以避免Endpoint外流，還可以降低Backend的壓力。<br>
+
+## Live On Action
+
+### 前端: https://espups.chiuhuang.dev/
+### 後端API: https://upsdata.chiuhuang.dev/
 ---
 
 ## API 身分驗證
