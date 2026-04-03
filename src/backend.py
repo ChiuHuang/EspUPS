@@ -112,7 +112,7 @@ def set_relay(data: dict):
     r1 = data.get("r1")
     r2 = data.get("r2")
     if r1 not in [0,1] or r2 not in [0,1]:
-        return {"error": "invalid relay values"}, 400 # i can't believe somebody will try to put my relay status to 3
+        return {"error": "invalid relay values"}, 400 # ew esp32 boot loop
     pending_command = {
         "r1": r1,
         "r2": r2,
