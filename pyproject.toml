@@ -1,0 +1,35 @@
+[project]
+name = "EspUPS"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "Chiuhuang", email = "ct@chiuhuang.dev" }
+]
+dependencies = [
+  "flet==0.28.3"
+]
+
+[tool.flet]
+org = "com.espups.chiuhuang"
+
+product = "EspUPS"
+
+company = "Chiuhuang"
+
+copyright = "Copyright (C) 2026 by Chiuhuang"
+
+[tool.flet.app]
+path = "src"
+
+[tool.uv]
+dev-dependencies = [
+    "flet[all]==0.28.3",
+]
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.group.dev.dependencies]
+flet = {extras = ["all"], version = "0.28.3"}
