@@ -93,7 +93,7 @@ R2 (GPIO 27)
 ### 數據格式 (Data Format)
 
 JSONL 格式如下：
-```json
+```jsonc
 {
   "v": 12.34,
   "p": 85,
